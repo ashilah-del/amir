@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Login</title>
+  <!-- Menyertakan link ke Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+    <body>
+    <div class="header d-flex align-items-center">
+        <img src="image/parakita white red.png" href="Beranda.html" alt="Logo">
+        <h2 class="p-2 flex-grow-1"><b>Sistem Pengaduan Masyarakat</b></h2>
+        <div class="ms-auto">
+        <a href="Beranda.html"><button class="btn btn-secondary" type="button" href="Beranda.html">Back</button></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-12 login-container">
+            <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-center">Login</h5>
+                <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Masukkan Username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Masukkan Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+                <hr>
+                <button type="button" class="btn btn-google btn-block">
+                    <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google"> Login dengan Gmail
+                </button>
+                <div class="text-center mt-3">
+                    <p>Belum punya akun? <a href="signup.html">Sign Up</a></p>
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Sistem Pengelolaan Pengaduan Masyarakat
+    </footer>
+
+  <!-- Menyertakan link ke Bootstrap JS dan jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
